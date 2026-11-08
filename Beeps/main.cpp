@@ -18,12 +18,158 @@ void playlist(){
 }
 
 int BakitPapa() {
-
+    cout<<"\t\t\t\t\t\t  >>Bakit Papa<<"<<endl;
+    Beep(2637,750);
+    Beep(2349,1000);Sleep(100);
+    Beep(2637,750);
+    Beep(2093,1000);Sleep(100);
+    Beep(2093,1000);
+    Beep(2793,750);
+    Beep(2637,1000);Sleep(100);
+    Beep(2793,750);
+    Beep(2349,1000);Sleep(100);
+    Beep(2637,750);
+    Beep(2349,1000);
+    Beep(2637,750);Sleep(100);
+    Beep(2349,1000);
+    Beep(2637,750);
+    Beep(2349,1000);Sleep(100);
+    Beep(2637,1000);
+    Beep(2093,1000);Sleep(100);
+    Beep(2637,750);
+    Beep(2349,1000);
+    Beep(2637,750);
+    Beep(2093,1000);Sleep(100);
+    Beep(2093,1000);
+    Beep(2793,750);
+    Beep(2637,1000);
+    Beep(2793,750);
+    Beep(2349,1000);Sleep(100);
+    Beep(3135,500);
+    Beep(3135,500);
+    Beep(3135,500);
+    Beep(3520,1000);Sleep(100);
+    Beep(2793,500);
+    Beep(2637,500);
+    Beep(2349,750);
+    Beep(2093,1000);Sleep(200);
+    cout<<endl;
+    return 4;
 }
 int JoyToTheWorld(){
+    cout<<"\t\t\t\t\t       >>Joy to the World<<"<<endl;
+    for(int i=0;i<2;i++){
+        Beep(2093,500);
+        Beep(1975,250);
+        Beep(1760,250);
+        Beep(1567,750);Sleep(100);
+        Beep(1396,250);
+        Beep(1318,650);
+        Beep(1174,550);
+        Beep(1046,750);Sleep(100);
+        Beep(1567,400);
+        Beep(1760,600);
+        Beep(1760,450);
+        Beep(1975,600);
+        Beep(1975,450);
+        Beep(2093,1000);Sleep(100);
+        Beep(2093,250);
+        Beep(2093,250);
+        Beep(1975,260);
+        Beep(1760,260);
+        Beep(1567,270);
+        Beep(1567,270);
+        Beep(1318,400);
+        Beep(1174,900);Sleep(100);
+        Beep(2093,250);
+        Beep(2093,250);
+        Beep(1975,260);
+        Beep(1760,260);
+        Beep(1567,270);
+        Beep(1567,270);
+        Beep(1318,400);
+        Beep(1174,900);Sleep(100);
+        Beep(1318,250);
+        Beep(1318,250);
+        Beep(1318,250);
+        Beep(1318,250);
+        Beep(1318,250);
+        Beep(1396,350);
+        Beep(1567,700);Sleep(100);
+        Beep(1396,500);
+        Beep(1318,400);
+        Beep(1174,300);
+        Beep(1174,300);
+        Beep(1174,300);
+        Beep(1174,300);
+        Beep(1318,400);
+        Beep(1396,700);Sleep(100);
+        Beep(1318,400);
+        Beep(1174,300);
+        Beep(1046,250);
+        Beep(2093,600);
+        Beep(1760,500);
+        Beep(1567,500);Sleep(100);
+        Beep(1318,500);
+        Beep(1174,500);Sleep(100);
+        Beep(1396,250);
+        Beep(1318,650);
+        Beep(1174,550);
+        Beep(1046,750);Sleep(100);
+    }
+    cout<<endl;
+    return 3;
 
 }
 int SilentNight(){
+    cout<<"\t\t\t\t\t\t  >>Silent Night<<"<<endl;
+    Beep(1567,1000);
+    Beep(1760,500);
+    Beep(1567,500);
+    Beep(1318,1000);Sleep(100);
+    Beep(1567,1000);
+    Beep(1760,500);
+    Beep(1567,500);
+    Beep(1318,1000);Sleep(100);
+    Beep(2349,1000);
+    Beep(2349,500);
+    Beep(1975,1000);Sleep(100);
+    Beep(2093,1000);
+    Beep(2093,500);
+    Beep(1567,1000);Sleep(100);
+    Beep(1760,1000);
+    Beep(1760,800);
+    Beep(2093,1000);
+    Beep(1975,500);
+    Beep(1760,500);
+    Beep(1567,1000);Sleep(100);
+    Beep(1760,500);
+    Beep(1567,500);
+    Beep(1318,1000);Sleep(100);
+    Beep(1760,1000);
+    Beep(1760,800);
+    Beep(2093,1000);
+    Beep(1975,500);
+    Beep(1760,500);
+    Beep(1567,1000);Sleep(100);
+    Beep(1760,500);
+    Beep(1567,500);
+    Beep(1318,1000);Sleep(100);
+    Beep(2349,1000);
+    Beep(2349,500);
+    Beep(2793,1000);Sleep(100);
+    Beep(2349,500);
+    Beep(1975,500);
+    Beep(2093,1000);
+    Beep(2637,1000);Sleep(100);
+    Beep(2093,750);
+    Beep(1567,1000);
+    Beep(1318,1000);Sleep(100);
+    Beep(1396,500);
+    Beep(1174,500);
+    Beep(1046,1000);Sleep(100);
+    cout<<endl;
+    return 2;
 
 }
 
@@ -52,7 +198,7 @@ int tone() {
     Beep(3951,1000);//^B
     Beep(4186,1000);//^^C
     cout<<endl;
-    return 5;
+    return 1;
 }
 
 int main()
